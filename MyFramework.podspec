@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyFramework"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Example POD MyFramework."
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
   s.platform = :ios
   s.ios.deployment_target = "10.0"
   spec.swift_version = '4.0'
-  
+
   spec.source_files  = "MyFramework/**/*.{swift,h,m,mm,cpp,c}"
   # spec.public_header_files = "ExamplePod/Sources/**/*.swift"
 
