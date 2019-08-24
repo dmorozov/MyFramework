@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyFramework"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "Example POD MyFramework."
 
   # This description is used to generate tags and improve search results.
@@ -57,7 +57,7 @@ TODO: Add long description of the pod here.
   spec.osx.frameworks = 'ExceptionHandling'
   #spec.vendored_frameworks = 'Frameworks/BaduUI'
   #spec.preserve_paths = "Frameworks/BaduUI"
-  spec.ios.vendored_frameworks = 'BaduUI.framework'
+  spec.ios.vendored_frameworks = 'Frameworks/BaduUI.framework'
 
   # spec.requires_arc = true
   #s.preserve_path = "${POD_ROOT}/TestLib/BridgingHeader.h"
