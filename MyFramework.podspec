@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyFramework"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Example POD MyFramework."
 
   # This description is used to generate tags and improve search results.
@@ -36,8 +36,8 @@ TODO: Add long description of the pod here.
   # spec.source       = { :path => "." }
   spec.source       = { :git => 'https://github.com/dmorozov/MyFramework.git', :tag => spec.version.to_s }
 
-  s.platform = :ios
-  s.ios.deployment_target = "10.0"
+  spec.platform = :ios
+  spec.ios.deployment_target = "10.0"
   spec.swift_version = '4.0'
 
   spec.source_files  = "MyFramework/**/*.{swift,h,m,mm,cpp,c}"
