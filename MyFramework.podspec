@@ -80,7 +80,9 @@ TODO: Add long description of the pod here.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :path => "." }
+  # spec.source       = { :path => "." }
+  spec.source       = { :git => 'https://github.com/dmorozov/MyFramework.git', :tag => s.version.to_s }
+  
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
