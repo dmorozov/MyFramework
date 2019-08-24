@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyFramework"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Example POD MyFramework."
 
   # This description is used to generate tags and improve search results.
