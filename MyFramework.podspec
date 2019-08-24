@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 TODO: Add long description of the pod here.
                        DESC
 
-  spec.homepage     = "http://whatever/MyFramework"
+  spec.homepage     = "https://github.com/dmorozov/MyFramework"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { "Denis Morozov" => "den.morozov@gmail.com" }
@@ -55,8 +55,9 @@ TODO: Add long description of the pod here.
 
   spec.frameworks = 'Security'
   spec.osx.frameworks = 'ExceptionHandling'
-  spec.vendored_frameworks = 'Frameworks/BaduUI'
-  spec.preserve_paths = "Frameworks/BaduUI"
+  #spec.vendored_frameworks = 'Frameworks/BaduUI'
+  #spec.preserve_paths = "Frameworks/BaduUI"
+  spec.ios.vendored_frameworks = 'BaduUI.framework'
 
   # spec.requires_arc = true
   #s.preserve_path = "${POD_ROOT}/TestLib/BridgingHeader.h"
@@ -67,7 +68,7 @@ TODO: Add long description of the pod here.
     # "FRAMEWORK_SEARCH_PATHS" => "/opt/j2objc/frameworks",
     # "LIBRARY_SEARCH_PATHS" => "/opt/j2objc/lib",
     #'SWIFT_OBJC_BRIDGING_HEADER' => 'ExamplePod/Sources/ExamplePod.h'
-    'SWIFT_INCLUDE_PATHS' => "$(SRCROOT)/Frameworks/BaduUI"
+    #'SWIFT_INCLUDE_PATHS' => "$(SRCROOT)/Frameworks/BaduUI"
   }
   # spec.dependency "JSONKit", "~> 1.4"
 
