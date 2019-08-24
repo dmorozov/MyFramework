@@ -1,6 +1,0 @@
-module BaduUI {
-  umbrella header "BaduUI.h"
-
-  export *
-  module * { export * }
-}
