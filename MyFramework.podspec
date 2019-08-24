@@ -81,7 +81,7 @@ TODO: Add long description of the pod here.
   #
 
   # spec.source       = { :path => "." }
-  spec.source       = { :git => 'https://github.com/dmorozov/MyFramework.git', :tag => s.version.to_s }
+  spec.source       = { :git => 'https://github.com/dmorozov/MyFramework.git', :tag => spec.version.to_s }
   
 
 
