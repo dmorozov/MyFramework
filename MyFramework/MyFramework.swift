@@ -7,6 +7,6 @@ public class SomeClass: NSObject {
     }
 
     class func hello() -> String {
-        return "Hello from MyFramework: " + one()
+        return "Hello from MyFramework: " + String(one())
     }
 }
